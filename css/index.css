@@ -4342,6 +4342,7 @@ img:hover {
   opacity: 0;
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
   filter: alpha(opacity=0);
+  z-index: 200;
 }
 #rightside #rightside-config-hide {
   display: none;
@@ -4365,6 +4366,7 @@ img:hover {
   margin-bottom: 2px;
   cursor: pointer;
   text-decoration: none;
+  border-radius: 100%;
 }
 #rightside #readmode:hover,
 #rightside #font_plus:hover,
@@ -4395,6 +4397,7 @@ img:hover {
   margin-bottom: 2px;
   cursor: pointer;
   text-decoration: none;
+  border-radius: 100%;
 }
 #rightside .translate_chn_to_cht:hover {
   background-color: #ff7242;
